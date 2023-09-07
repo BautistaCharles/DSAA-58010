@@ -13,9 +13,7 @@ int main() {
     numbers[1] = newNumber;
 
     for (int i = 0; i < length; i++) {
-        std::cout << numbers[i] << " ";
+        cout<<numbers[i]<<" ";
     }
-    std::cout << std::endl;
-
     return 0;
 }
